@@ -12,6 +12,7 @@
 
 📍Uses custom loader
 
+📍Animated gradient border
 
 
 ## 💻𝐆𝐢𝐭𝐇𝐮𝐛 𝐑𝐞𝐩𝐨:
