@@ -14,6 +14,8 @@
 
 📍Animated gradient border
 
+📍Hover effect button {no touch screen support}
+
 
 ## 💻𝐆𝐢𝐭𝐇𝐮𝐛 𝐑𝐞𝐩𝐨:
 
