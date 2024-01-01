@@ -9,10 +9,16 @@
   <body>
     <div class="container gradient-border">
       <h1 class="heading">Dad<sup>🧔‍♂️</sup>Joke<sup>😂</sup>Generator!</h1>
-      <p id="joke">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus magnam
-        natus sapiente architecto eveniet! A illo est expedita earum dolore.
-      </p>
+      <div id="jokeArea">
+        <div id="jokeWrapper">
+          <span class="quotes">"</span>
+          <p id="joke">
+            A funny joke will appear here click the button below to see🤣.
+          </p>
+          <span class="quotes">"</span>
+        </div>
+        <span id="loader" class="loader"></span>
+      </div>
       <button class="custom-btn btn">Next Dad Joke</button>
     </div>
     <script src="index.js"></script>
