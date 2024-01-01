@@ -13,6 +13,7 @@ const options = {
 
 btn.addEventListener("click", async () => {
   btn.disabled = true;
+  btn.innerHTML = "I'm disabled";
   loader.style.display = "block";
   jokeWrapper.style.display = "none";
 
@@ -25,6 +26,7 @@ btn.addEventListener("click", async () => {
     jokeWrapper.style.display = "block";
     jokeWrapper.style.display = "flex";
     btn.disabled = false;
+    btn.innerHTML = "Next Dad Joke";
   } catch (error) {
     loader.style.display = "none";
     jokeElement.innerHTML = "Something went wrong. Please try again";
